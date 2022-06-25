@@ -24,3 +24,13 @@
    3. main holds the code that is production ready state and can be release
    4. Develop stores the latest dev changes for the next release.
       - When this code reaches a stable level it will then be placed into the develop branch.
+   5. Steps to implementing
+      a. Create the develop branch in the repository
+      b. git checkout -b develop origin/develop
+      c. Create a feature branch.   git checkout -b feature/mc-123-site-content
+      d. Make changes
+      e. git add .
+      f. git commit -m "Add new content"
+      g. git push origin feature/mc-123-site-content -u
+
+      !! Note - create another feature branch and repeat the process.
