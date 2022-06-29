@@ -32,5 +32,7 @@
       e. git add .
       f. git commit -m "Add new content"
       g. git push origin feature/mc-123-site-content -u
+      h. Create a pull request making sure that the base is the develop branch.
+      i. Then merge the branch.
 
       !! Note - create another feature branch and repeat the process.
