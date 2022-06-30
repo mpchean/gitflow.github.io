@@ -55,6 +55,10 @@
    5. Developer creates feature branch off of main branch.
    6. When a milestone is reached the feature branch is pushed up to remote but no pull request is created.
    7. when the feature branch is finished then it is uploaded and a pull request is created.
-   8. Use git checkout main & git pull to to sync the local main
-   9. Then use git checkout -b feature/mc-123... to create a new local branch off the updated main.
-      !! Note - create another feature branch and repeat the process.
+   8. Get rid of all branches in github besides main.
+   9. git checkout main to make sure local main branch is up to date.
+   10. git pull will sync main
+   11. create a new branch from main with git checkout -b feature/mc-something
+   12. make changes to the branch
+   13. git add then commit 
+      !! Note - create another feature branch and repeat the process
