@@ -41,4 +41,10 @@
      - this allows the dev team to contiue working with the dev branch while the release is being tested.
    3. The release branch is then merged into the main branch
 
+   ## Hotfixes
+   1. Create a hotfix branch from the main on Github. 
+   2. Make your changes and commit changes
+   3. Then create pull request into main & merge
+   4. Create new pull request and merge hotfix into the develop branch.
+
       !! Note - create another feature branch and repeat the process.
