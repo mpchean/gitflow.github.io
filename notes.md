@@ -33,4 +33,9 @@
       f. git commit -m "Add new content"
       g. git push origin feature/mc-123-site-content -u
 
+   ## creating a release
+   1. Create a release branch from the develop branch.
+   2. Make small changes only to the branch while it is being tested.
+     - this allows the dev team to contiue working with the dev branch while the release is being tested.
+
       !! Note - create another feature branch and repeat the process.
