@@ -61,4 +61,6 @@
    11. create a new branch from main with git checkout -b feature/mc-something
    12. make changes to the branch
    13. git add then commit 
+
       !! Note - create another feature branch and repeat the process
+      !! Trying this again using github flow.
