@@ -41,4 +41,19 @@
      - this allows the dev team to contiue working with the dev branch while the release is being tested.
    3. The release branch is then merged into the main branch
 
+   ## Hotfixes
+   1. Create a hotfix branch from the main on Github. 
+   2. Make your changes and commit changes
+   3. Then create pull request into main & merge
+   4. Create new pull request and merge hotfix into the develop branch.
+
+   ## GitHub Flow
+   1. More streamlined that Git Flow
+   2. Main is only long-lived branch.
+   3. Does not use develop, release or hotfix branches.
+   4. Designed for higher cadence releases
+   5. Developer creates feature branch off of main branch.
+   6. When a milestone is reached the feature branch is pushed up to remote but no pull request is created.
+   7. when the feature branch is finished then it is uploaded and a pull request is created.
+
       !! Note - create another feature branch and repeat the process.
