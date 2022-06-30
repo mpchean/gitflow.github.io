@@ -35,4 +35,9 @@
       h. Create a pull request making sure that the base is the develop branch.
       i. Then merge the branch.
 
+   ## creating a release
+   1. Create a release branch from the develop branch.
+   2. Make small changes only to the branch while it is being tested.
+     - this allows the dev team to contiue working with the dev branch while the release is being tested.
+
       !! Note - create another feature branch and repeat the process.
