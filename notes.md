@@ -62,5 +62,12 @@
    12. make changes to the branch
    13. git add then commit 
 
+   ## Continuous Integration
+   1. To elicit comments about commits the best way is to use a CI system.
+   2. Before each feature branch is merged the CI should build the code and run the test suite.
+   3. If build doesnt pass those issues must be addressed.  
+   4. Unit and integration tests are needed to make sure changes don't break the code. 
+   5. Deployment must be automated.
+
       !! Note - create another feature branch and repeat the process
       !! Trying this again using github flow.
