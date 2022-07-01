@@ -69,5 +69,24 @@
    4. Unit and integration tests are needed to make sure changes don't break the code. 
    5. Deployment must be automated.
 
+      
+   ## Trunk Based Development
+   1. Center development around the trunk.
+   2. No long lived branches
+   3. Small teams with high cadence releases.
+      1. All changes are committed to the trunk.
+   4. Large teams similiar to Github flow
+   5. Release strategy - 
+      1. Release from trunk if fast cadence
+      2. For slower create release branch from trunk.
+         1. Changes are made to trunk and then merged into the release branch.
+   6. Having a mature CI/CD pipeline is important.
+   7. Feature flagging: toggle availability of features. 
+      1. Deploy code without making it visible to users.
+      2. Draw clear distinction between deployment and release
+      3. Toggle strategies - Basic turn on/off in environment. Targeted turn on/off for user segments. Rollout turn on/off for specific percentage of users.
+   - Called a dark launch
+  
+   1. 
       !! Note - create another feature branch and repeat the process
       !! Trying this again using github flow.
